@@ -1,0 +1,26 @@
+{
+  "name": "vuepress-plugin-preview",
+  "version": "1.0.0",
+  "description": "image priview plugin for VuePress",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "vuepress dev client --temp .temp",
+    "build": "vuepress build client --dest .build --temp .temp",
+    "lint": "eslint --fix --ext .js,.vue ."
+  },
+  "author": "Ni Ni",
+  "license": "MIT",
+  "dependencies": {
+    "viewerjs": "^1.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-vuepress": "^0.0.2",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
+    "vuepress": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vuepress": "^1.0.0"
+  }
+}
